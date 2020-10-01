@@ -4,7 +4,7 @@ Quick way to create HTML, CSS & JS starter files for a new web development proje
 
 # Installation
 
-`npm install web-dev-kit --save-dev`
+`npm install -g web-dev-kit`
 
 # Usage
 
