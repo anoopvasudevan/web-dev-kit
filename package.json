@@ -1,12 +1,22 @@
 {
-  "name": "web-dev-kit",
+  "name": "create-web-dev-kit",
   "version": "1.0.0",
   "description": "Create HTML, CSS & JS starter files new projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoopvasudevan/web-dev-kit.git"
+  },
+  "keywords": [
+    "development",
+    "kit",
+    "node",
+    "javascript",
+    "npm"
+  ],
   "author": "av.dev",
   "license": "ISC",
   "bin": {
