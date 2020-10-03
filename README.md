@@ -4,10 +4,12 @@ Quick way to create HTML, CSS & JS starter files for a new web development proje
 
 # Installation
 
-Global installation. 
+Global installation.
+
 `npm install -g cli-get-development-kit`
 
 Local installation
+
 `npm install --save-dev cli-get-development-kit`
 
 For local installation use npx to run the command. See note below. 
@@ -23,4 +25,5 @@ From the project directory - command prompt, execute
 # Note
 
 For local installation, run
+
 `npx getkit`
