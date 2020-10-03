@@ -4,12 +4,12 @@ Quick way to create HTML, CSS & JS starter files for a new web development proje
 
 # Installation
 
-`npm install -g create-web-dev-kit`
+`npm install -g cli-get-development-kit`
 
 # Usage
 
 From the project directory - command prompt, execute
 
-`devkit` to generate HTML, CSS & JS starter files  
-`devkit js` or  
-`devkit css` to generate HTML + JS / CSS starter files
+`getkit` to generate HTML, CSS & JS starter files  
+`getkit js` or  
+`getkit css` to generate HTML + JS / CSS starter files

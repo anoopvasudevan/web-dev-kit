@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-const { writeFile } = require("fs/promises");
+const { writeFile } = require("fs").promises;
 const program = require("caporal");
+const chalk = require("chalk");
 
 const { HTMLTemplate, HTMLTags } = require("./templates");
 
@@ -57,16 +58,18 @@ program
 
     // write HTML file
     try {
-      await writeFile("index.html", HTMLTemplate.join(""));
+      await writeFile("index.html", HTMLTemplate.join(""), { flag: "wx" });
 
       if (fileType1 === "css" || fileType2 === "css")
-        await writeFile("style.css", "");
+        await writeFile("style.css", "", { flag: "wx" });
 
       if (fileType1 === "js" || fileType2 === "js")
-        await writeFile("script.js", "");
+        await writeFile("script.js", "", { flag: "wx" });
     } catch (err) {
-      console.log(err);
+      // console.log(err);
     }
+
+    console.log(chalk.green("Your development starter files are ready."));
   });
 
 program.parse(process.argv);

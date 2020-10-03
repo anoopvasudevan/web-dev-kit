@@ -1,7 +1,7 @@
 {
-  "name": "create-web-dev-kit",
+  "name": "cli-get-development-kit",
   "version": "1.0.0",
-  "description": "Create HTML, CSS & JS starter files new projects",
+  "description": "Quick way to set up HTML, CSS & JS starter files for new projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,18 +11,20 @@
     "url": "git+https://github.com/anoopvasudevan/web-dev-kit.git"
   },
   "keywords": [
+    "new",
     "development",
     "kit",
     "node",
     "javascript",
     "npm"
   ],
-  "author": "av.dev",
+  "author": "Anoop Vasudevan",
   "license": "ISC",
   "bin": {
-    "devkit": "index.js"
+    "getkit": "index.js"
   },
   "dependencies": {
-    "caporal": "^1.4.0"
+    "caporal": "^1.4.0",
+    "chalk": "^4.1.0"
   }
 }
